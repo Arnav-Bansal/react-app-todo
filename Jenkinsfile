@@ -11,7 +11,7 @@ pipeline {
        bat 'npm clean-install'
        bat 'npm run build'
        bat 'cd C:/Users/Dell/Documents/GitHub/react-todo-app-sample'
-       bat 'docker build -t finalToDo .'
+       bat 'docker build -t final/todo .'
       }
     }
   }
